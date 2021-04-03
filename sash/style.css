@@ -1,0 +1,52 @@
+html, body{margin: 0;padding: 0;}
+.start{font-size: 150px;justify-content: center;margin: 0 auto;
+	display: flex;width: 70%;height: 100%;background-color: silver;
+	border-radius:50%;}
+.navigation{
+	flex-wrap: wrap;border-radius: 50px;box-shadow: 0 0 25px 25px silver;
+	display: none;
+		background-color: silver;
+	width: 100%;	min-height: 50px;margin: 0 auto
+}
+.navigation1{
+	justify-content: space-around;
+	width: 1000px;	margin: 10px auto;
+ display: flex;
+}
+.navig{
+	text-decoration: none;
+	width: 100px;height: 30px;line-height: 30px;
+	background-color:white ;
+	opacity: .5;text-align: center;
+	border-radius: 5px; }
+#filter-1{display: none;}
+#filter--1{display: none;}
+.Tablo{
+	height: 400px;width: 100%;margin-top: 40px; 
+	display: none;justify-content: center;
+	background-color:silver;  border-radius: 50px;
+	box-shadow: 0 0 20px 15px silver;opacity: .4;
+}
+.content-gumarum{
+	display: flex;justify-content: space-between;
+	height: 90%;
+	width: 90%;margin-top: 20px; 
+}
+.gumarum{width: 20%;height: 100%;
+	font-weight: 700;
+font-size: 140px;text-align: center;line-height: 350px;
+}
+#patasxan{background: transparent;
+font-weight: 700;
+font-size: 80px;text-align: center;line-height: 350px;	
+  border: none;  outline: none;}
+  input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.hashiv{display: none;width: 500px;height: 100px;opacity: .5;
+	margin: 30px auto; line-height: 110px ;font-size: 80px;}
+.jisht{width: 50%;height: 100%;color: green;
+text-align: end;padding-right: 10px}
+.sxal{width: 50%;height: 100%;color: red;}
